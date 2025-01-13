@@ -7,6 +7,13 @@
 <img src="./assets/MANDO_HGT.png" alt="MANDO HGT Logo" width="225" height="225" class="center">
 </p>
 
+# About the Fork
+This project was forked from [Mando-Project](https://github.com/MANDO-Project/ge-sc-transformer) to evaluate the model independently (See https://github.com/stephan-klein/mlsc)
+
+It includes only minor infrastructural changes.
+
+List of changes:
+- Removed duplicate torch version from requirements.txt (We cannot have both) choosing newer one
 
 # Overview
 This repository is the implementation of MANDO-HGT which should be applicable to either source code or bytecode/binary form of software programs to cater to different situations where the source code of the software may or may not be available.
