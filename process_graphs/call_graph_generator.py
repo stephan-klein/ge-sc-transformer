@@ -24,18 +24,30 @@ from slither.core.variables.variable import Variable
 logger = logging.getLogger("Slither-simil")
 
 
-pattern =  re.compile(r'\d.\d.\d+')
+pattern =  re.compile(r'\d+\.\d+\.\d+')
+highest_version_pattern = re.compile(r'[\^>>=]+\s*(\d+\.\d+\.\d+)')
+version_range_pattern = re.compile(r'>=\s*(\d+\.\d+\.\d+)\s*<\s*(\d+\.\d+\.\d+)')
+
 def get_solc_version(source):
-    with open(source, 'r') as f:
-        line = f.readline()
-        while line:
-            if 'pragma solidity' in line:
-                if len(pattern.findall(line)) > 0:
-                    return pattern.findall(line)[0]
-                else:
-                    return '0.4.25'
-            line = f.readline()
-    return '0.4.25'
+    # Get the directory containing the source file
+    source_dir = os.path.dirname(source)
+    filename = os.path.basename(source)
+    
+    # Look for ds_solc_versions.json in the same directory
+    versions_file = os.path.join(source_dir, 'ds_solc_versions.json')
+    
+    if os.path.exists(versions_file):
+        try:
+            with open(versions_file, 'r') as f:
+                versions_data = json.load(f)
+                if filename in versions_data:
+                    return versions_data[filename]
+        except (json.JSONDecodeError, IOError):
+            pass  # Fall back to pragma parsing if JSON reading fails
+    
+    # Fallback to original pragma parsing logic
+    else:
+        raise ValueError(f"ds_solc_versions.json not found in {source_dir} or invalid JSON format.")
 
 
 # return graph edge with edge type
@@ -390,9 +402,9 @@ def get_vulnerabilities_of_node_by_source_code_line(source_code_lines, list_vul_
 
 def extract_graph(source_path, output, vulnerabilities=None):
     sc_version = get_solc_version(source_path)
-    solc_compiler = f'.solc-select/artifacts/solc-{sc_version}'
+    solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-{sc_version}'
     if not os.path.exists(solc_compiler):
-        solc_compiler = f'.solc-select/artifacts/solc-0.4.25'
+        solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-0.4.25'
     file_name_sc = source_path.split('/')[-1]
     try:
         slither = Slither(source_path, solc=solc_compiler)
@@ -410,11 +422,11 @@ def compress_full_smart_contracts(smart_contracts, output, vulnerabilities=None)
     full_graph = None
     count = 0
     for sc in tqdm(smart_contracts):
-        print(sc)
         sc_version = get_solc_version(sc)
-        solc_compiler = f'.solc-select/artifacts/solc-{sc_version}'
+        print(sc, sc_version)
+        solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-{sc_version}'
         if not os.path.exists(solc_compiler):
-            solc_compiler = f'.solc-select/artifacts/solc-0.4.25'
+            solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-0.4.25'
         file_name_sc = sc.split('/')[-1:][0]
         try:
             slither = Slither(sc, solc=solc_compiler)
@@ -499,22 +511,20 @@ class GESCPrinters(AbstractPrinter):
 if __name__ == '__main__':
     # smart_contract_path = 'data/extracted_source_code/' 
     # output_path = 'data/extracted_source_code/'
-    ROOT = './experiments/ge-sc-data/source_code'
-    bug_type = {'access_control': 57, 'arithmetic': 60, 'denial_of_service': 46,
-              'front_running': 44, 'reentrancy': 71, 'time_manipulation': 50, 
-              'unchecked_low_level_calls': 95}
+    ROOT = '/workspaces/mlsc/mando/ge-sc-transformer/experiments/ge-sc-data/source_code'
+    bug_type = {'reentrancy': 660}
 
     for bug, counter in bug_type.items():
         # source = f'{ROOT}/{bug}/buggy_curated'
         # output = f'{ROOT}/{bug}/buggy_curated/cg_compressed_graphs.gpickle'
-        source = f'{ROOT}/{bug}/curated'
-        output = f'{ROOT}/{bug}/curated/cg_compressed_graphs.gpickle'
+        source = f'{ROOT}/{bug}/cgt'
+        output = f'{ROOT}/{bug}/cgt/cg_compressed_graphs.gpickle'
         smart_contracts = [join(source, f) for f in os.listdir(source) if f.endswith('.sol')]
-        list_vulnerabilities_json_files = ['data/solidifi_buggy_contracts/reentrancy/vulnerabilities.json',
-            # 'data/solidifi_buggy_contracts/access_control/vulnerabilities.json',
-            'data/smartbug-dataset/vulnerabilities.json']
-        data_vulnerabilities = merge_data_from_vulnerabilities_json_files(list_vulnerabilities_json_files)
-        compress_full_smart_contracts(smart_contracts, output, vulnerabilities=data_vulnerabilities)
+        # list_vulnerabilities_json_files = ['data/solidifi_buggy_contracts/reentrancy/vulnerabilities.json',
+        #     # 'data/solidifi_buggy_contracts/access_control/vulnerabilities.json',
+        #     'data/smartbug-dataset/vulnerabilities.json']
+        # data_vulnerabilities = merge_data_from_vulnerabilities_json_files(list_vulnerabilities_json_files)
+        compress_full_smart_contracts(smart_contracts, output, vulnerabilities=None)
         
 
     # smart_contract_path = 'data/clean_71_buggy_curated_0' 
