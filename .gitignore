@@ -22,3 +22,4 @@ results/
 *.gpickle
 *.json
 forensics/graph_hiddends/*
+.venv
