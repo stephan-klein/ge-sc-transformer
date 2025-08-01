@@ -14,19 +14,21 @@ from slither.slither import Slither
 from slither.core.cfg.node import NodeType
 from solc import install_solc
 
+from call_graph_generator import get_solc_version
 
-pattern =  re.compile(r'\d.\d.\d+')
-def get_solc_version(source):
-    with open(source, 'r') as f:
-        line = f.readline()
-        while line:
-            if 'pragma solidity' in line:
-                if len(pattern.findall(line)) > 0:
-                    return pattern.findall(line)[0]
-                else:
-                    return '0.4.25'
-            line = f.readline()
-    return '0.4.25'
+
+# pattern =  re.compile(r'\d.\d.\d+')
+# def get_solc_version(source):
+#     with open(source, 'r') as f:
+#         line = f.readline()
+#         while line:
+#             if 'pragma solidity' in line:
+#                 if len(pattern.findall(line)) > 0:
+#                     return pattern.findall(line)[0]
+#                 else:
+#                     return '0.4.25'
+#             line = f.readline()
+#     return '0.4.25'
 
 
 def get_node_info(node, list_vulnerabilities_info_in_sc):
@@ -88,9 +90,9 @@ def compress_full_smart_contracts(smart_contracts, input_graph, output, vulnerab
     for sc in tqdm(smart_contracts):
         sc_version = get_solc_version(sc)
         print(f'{sc} - {sc_version}')
-        solc_compiler = f'.solc-select/artifacts/solc-{sc_version}'
+        solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-{sc_version}'
         if not os.path.exists(solc_compiler):
-            solc_compiler = f'.solc-select/artifacts/solc-0.4.25'
+            solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-0.4.25'
         file_name_sc = sc.split('/')[-1:][0]
         bug_type = sc.split('/')[-2]
         try:
@@ -203,9 +205,9 @@ def merge_data_from_vulnerabilities_json_files(list_vulnerabilities_json_files):
 
 def check_extract_graph(source_path):
     sc_version = get_solc_version(source_path)
-    solc_compiler = f'~/.solc-select/artifacts/solc-{sc_version}'
+    solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-{sc_version}'
     if not os.path.exists(solc_compiler):
-        solc_compiler = f'~/.solc-select/artifacts/solc-0.4.25'
+        solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-0.4.25'
     try:
         slither = Slither(source_path, solc=solc_compiler)
         return 1
@@ -215,9 +217,9 @@ def check_extract_graph(source_path):
 
 def extract_graph(source_path, output, vulnerabilities=None):
     sc_version = get_solc_version(source_path)
-    solc_compiler = f'~/.solc-select/artifacts/solc-{sc_version}'
+    solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-{sc_version}'
     if not os.path.exists(solc_compiler):
-        solc_compiler = f'~/.solc-select/artifacts/solc-0.4.25'
+        solc_compiler = f'/home/vscode/.solc-select/artifacts/solc-0.4.25'
     file_name_sc = source_path.split('/')[-1]
     try:
         slither = Slither(source_path, solc=solc_compiler)
@@ -225,7 +227,8 @@ def extract_graph(source_path, output, vulnerabilities=None):
         print('exception ', e)
         return 0
 
-    list_vul_info_sc = get_vulnerabilities(file_name_sc, vulnerabilities)
+    # list_vul_info_sc = get_vulnerabilities(file_name_sc, vulnerabilities)
+    list_vul_info_sc = None
 
     merge_contract_graph = None
     for contract in slither.contracts:
@@ -324,19 +327,18 @@ if __name__ == '__main__':
     
     # compress_full_smart_contracts(smart_contracts, input_graph, output_path, vulnerabilities=data_vulnerabilities)
 
-    ROOT = './experiments/ge-sc-data/source_code'
-    bug_type = {'access_control': 57, 'arithmetic': 60, 'denial_of_service': 46,
-              'front_running': 44, 'reentrancy': 71, 'time_manipulation': 50, 
-              'unchecked_low_level_calls': 95}
+    ROOT = '/workspaces/mlsc/mando/ge-sc-transformer/experiments/ge-sc-data/source_code'
+    bug_type = {'reentrancy': 600}
+
     for bug, counter in bug_type.items():
         # source = f'{ROOT}/{bug}/buggy_curated'
         # output = f'{ROOT}/{bug}/buggy_curated/cfg_compressed_graphs.gpickle'
-        source = f'{ROOT}/{bug}/curated'
-        output = f'{ROOT}/{bug}/curated/cfg_compressed_graphs.gpickle'
+        source = f'{ROOT}/{bug}/cgt'
+        output = f'{ROOT}/{bug}/cgt/cfg_compressed_graphs.gpickle'
         smart_contracts = [join(source, f) for f in os.listdir(source) if f.endswith('.sol')]
         data_vulnerabilities = None
-        list_vulnerabilities_json_files = ['data/solidifi_buggy_contracts/reentrancy/vulnerabilities.json',
+        # list_vulnerabilities_json_files = ['data/solidifi_buggy_contracts/reentrancy/vulnerabilities.json',
         # 'data/solidifi_buggy_contracts/access_control/vulnerabilities.json',
-        'data/smartbug-dataset/vulnerabilities.json']
-        data_vulnerabilities = merge_data_from_vulnerabilities_json_files(list_vulnerabilities_json_files)
+        # 'data/smartbug-dataset/vulnerabilities.json']
+        # data_vulnerabilities = merge_data_from_vulnerabilities_json_files(list_vulnerabilities_json_files)
         compress_full_smart_contracts(smart_contracts, None, output, vulnerabilities=data_vulnerabilities)
