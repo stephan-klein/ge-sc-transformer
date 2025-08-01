@@ -12,7 +12,6 @@ outputs/*
 logs/
 logs*/
 *.ipynb
-*.txt
 **/logs/
 **/logs*/
 **/dataset/

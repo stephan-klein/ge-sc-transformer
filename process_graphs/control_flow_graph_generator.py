@@ -333,8 +333,8 @@ if __name__ == '__main__':
     for bug, counter in bug_type.items():
         # source = f'{ROOT}/{bug}/buggy_curated'
         # output = f'{ROOT}/{bug}/buggy_curated/cfg_compressed_graphs.gpickle'
-        source = f'{ROOT}/{bug}/cgt'
-        output = f'{ROOT}/{bug}/cgt/cfg_compressed_graphs.gpickle'
+        source = f'{ROOT}/{bug}/cgt_split/train'
+        output = f'{ROOT}/{bug}/cgt_split/cfg_compressed_graphs.gpickle'
         smart_contracts = [join(source, f) for f in os.listdir(source) if f.endswith('.sol')]
         data_vulnerabilities = None
         # list_vulnerabilities_json_files = ['data/solidifi_buggy_contracts/reentrancy/vulnerabilities.json',
