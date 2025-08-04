@@ -1,0 +1,1886 @@
+[
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_db05c6c6e9a71fbe3f25d75dc06543b5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_cd5d4b64f56290e306066f132b76be86.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_edc1d4665a50e846d3e10681ba9b7a52.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_1f8f2b3eef8cb8fd8efff41c0c7bfea6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5542783e0e5af266da17a6a95324d0e1.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3ff8bddb0d558c6504fb5717f227861d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e59ed76338ec32c14922bf858d3dd5fc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_9d5e7c652b2d27cbf8dbfc8e195c5620.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_18c2e0c374031239846b704cf76a6854.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_cf3d4a62e98f5dec4d263d3274d3268a.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3e6a2cae2d637b05aae7956f520c9730.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c75b5b8436f23ee7f9cdbe1e0cf7ed1b.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_a3f97f3aaea62737f61587af1aad2b48.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_dd443a9352d9e4ef8e8e81310f45f607.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ef0f4b8310ff1ff7275a75136ac5f11a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_86748929cf21dfa60ac54eb5e16e2717.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_d0a911c3d70d558e4b17ad4008d5c6b2.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ea2d4771565653e97658cbd5f5f9c8de.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e86a4faeb5def1a7a7f9adf5ea82decc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4bc3ac502d6cf70ba84eb9dba6a1c6e6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4d756a8860f5854c431cb00d3d76aa08.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_121a74e190e7b54f05a84a2673463b55.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_24673a9442923184ce224f682e454f21.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_311ff04c37e05a33801f2f03c1b7e26d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_bd9b469f7e44b99a7c9d3c3c1f25308e.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_038fd9b9bdfc5609cc410cc8f022da05.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_efe5ebd718c6afa9c24214bb4373b40d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4e8ba79cce0f0e6dd028949c17072d38.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_302accc3b3ac3ea565ee4d0b0fafdbbd.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_0cdc64278f3169e4b4be494f50a9067f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserFixedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_9b1500746642e2f3c28c01e085c3130c.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_bf31e226b9fb15240db3d7307c6e54d0.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_6c95c2086e5a58f7a5fbede278fd7aff.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5c1be500d6563c607ac8634e9ac48456.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_327d0766e93e7ebb7ac491447f7d720b.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5f771f19812dac5b776652e9184dd537.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_fed5fc34185c74bb2f30e2c3b13072f4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d338f8b2d3e858219c60689123ca9b7d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b19fffc40442b87ff4d36bffff75780f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c980d3ebc5971f1b7ce75628fb471c9f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_dde77fad873fc09aca4825971a6bf4ab.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c73fa27f9ce017c02dd2e11d0ba91ff4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2000e562b993f759d1fbd9e441af4dda.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ca3b61dfbb1186317338bc22515e77e8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_03cb12826f2844106216a23484264edf.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c2c8c6e2df2855ff84dab6c604319351.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ea84bfd3c197ff573905a6a1e0aad3aa.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_91736024b2dde0f5c842eb191a05ffaa.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_f26ed098ddfa730dd9cebaaaab1bceac.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_db51cfe3fb4a3646a38c5b5f6e018685.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_9a24ad7a4968e769e3d990259f284c4d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c19bad2486856869eef221576194b721.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_cf971d0b5b95960356fe47e96e281f42.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_b82c2eeaa8fcada6444d91372cc6c052.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_10e497422f3c9e6016ceee18efbf511a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_59f084f924733e006acde4cee4656330.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_50d22d4d3f3830c8fd94382a9bd2d98b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_149203d00c4bb5664dda100d6eb2db6b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_1ab6fc88bb9686fa8c7cdfb095d09d9a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_745d5e6495ba738ec453cd8b4f66fc69.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserFixedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e155c0d9de4d6c97065977863a44f9df.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_1b1f54b3f4cefadf796b2e17b05cc2e7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_261a8729f567dd034042a37e29ee9ff0.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_de9dee1319f605155092633560084fc8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserFixedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c3924244c0e9e0726c12eb89234e51ae.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_0a7dcd7ad58d91e0373b21e4e4522cdf.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_62325a9e0d9d9c25b9fb82d68406be45.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_6e6653bd9f7cff001d9299f5223dc4fe.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_77bdcc525bbdbc192d216964b3cc597b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_8a82d7c88d29e207458eacbff78d1065.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_92824bc00e630f9cfe39b28b9fd9f442.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_e710c808e54ef6263a3f9083f3ca26c0.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_0adbb9434478f6977b5a383b1c5515a2.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_521629292ab18d062ec49f19e5ab393b.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_2ef5c829e796b8cd723a49c55dccb39f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c3ac8617381f6dd433b387790b3c296f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_3afb0b4cf597df904f7cf98fcab6d19e.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f163bdf316934b86155c3378aaf1c3f6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a6c230ff97ae1906c6f9c50c18250437.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_64a52ae72e4952e5b373d8453b51d12e.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5cef47036b0f4bfe8dc52f03922476fe.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3676cd599e632e7e614abaf9683e30dd.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ccaaeeb118de7427945743ed5e655e8d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_388fe69f627cff7367fe3b55f75c286d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_9cd90eabda9b6628fe157db2bd97cfd3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_6f743a3b65517a1c94eae500fa939a26.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5bd029f8ca388155de72b26aa6a9a889.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a59f8a1c156d3208c10523b405773f2a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_23a3cb62fda4329258d822b9666cf64b.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ec847c962f9fb6580705ff8261582181.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_acb5af00ad32ba1424a7347d7f4faee2.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_5074ee1ef1168d21ca760af0e0dae763.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_735483d61ed5b9d9aa9e31ef8567c988.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_81271001a02d1a2a76625b944b3acf4d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_82a95267f482b47b5df9f2afc4fa1130.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_285cfbf16564f663dc5c45587896ac9b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2d0c4e326c9f1051296a998f1fbb7bfb.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_fb122bf5837ffddf30dac551841791f6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_7d6b9a034771315b63328b230f104990.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ddc115d4b7c2a77bbde96cb31c5a27c1.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_5999c905982f6359350d2e4032618cdc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_0ddd1c046d2a572672c87f87e287a176.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_61100e940002287986287c56b94e1c1c.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_9c37399dda2acd29509968dabe802aba.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ef9a3b92a5629baddf4c912b91bbe929.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_def831e83411942290b0f189ddf73841.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_74a9cc8e9d2ced3567d9cd2dbcd44600.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_52caeccd17160d227634d4be5578c309.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_5f3a59643ab181bc0e7a14b0ac1988d3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_baf7d9a4f82ca5fedd1e8264443cb6fd.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5169cb5942918e0f6ef93de6d075392d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2e866d762062f66912af04800ce6507b.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b89b0de4c15fed659060c0f00cda7134.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b7467da073c5c80750ad5740fec17c8d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2c0e03ab0171d10be5a59a65044d625e.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f2aaa885e5080b386e35c26a13bc1864.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4e76d197c9abfae7f2f08c2e02b3732e.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4c7eda457bb013264b3a749886513cbf.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4ecd7575165cbb435173923a17c1a0f9.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_175c443da7637ba3b53053561531a69e.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_4060560a9da63d25233ef2d24076e983.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_0560aa97c1cfa7d21268ac72dbfe6c53.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_526f7b6b87dbd93fbf04564b3c074d70.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f9224de644158dfdd7cbfad6d5e81865.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_df4b7d19f1885a2764d2d783d348795f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b67a25e0444c0cd7a57823c4384550b0.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c9637852a57f83876ad3234cdeedbb8c.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_54341e505565ff1c74622dbdd0765582.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_becbee11db1aaa1611f720a99dfa8ad9.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a746e2a46be20c1d5e59690711f8fc36.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_461f6a32e59e945b01245d69850202fe.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5e471afcb225dc5e8bb921b59cf95eb8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_a5629f68eab3d1e9a3e5e498e1226677.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_a696db482f880685400450a308ac49c7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_DelegatedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_92329413a1a23e66d98b9d2dd8d068c7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_8173d1c5ff367cffb7d08b65f77a6b0a.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_244dae4d20ed64a10f8c412410b0c541.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2ea57dc653b20d6fae61b6083b721fb8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_fc5d64bfe5ccb35b4ed5cab3715c72f7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_92b8fc3a9b83f7f060df5c9d07fd90ba.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3d621d123e2dedc7eb65b7bc9f88ebc3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d1cb4dd66663151973e7194ed24db0d7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_3b11e8a8b98e268d189768525b510d1f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c155eecdc6d42d9427b489da45d75627.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_40edf8345391a754091af7ba7b28678f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ec7ad4af1fc95654260069e7932dbf3d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d909b4837c551f150c6e34fbcd047f19.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a89ee718baf2b358b3e55929b4fe9cbc.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_72c7afddfd98c2b03e56fee91ef8c659.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4f085887b8c5b4b4a258a1000f470109.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_26f8be1c92078220de7f8c9de26398b3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_538baeca159e3d02a50a2b2dc678cec4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_496449e6d6f96097c95308c7551aa418.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_6ed4d37392add7aaf9898db587ddb6f3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_27bc70fee1ba95b4278050baa580c02d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_d922377a9adfe9ca30840b8eed466179.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserFixedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_04045504816e9b4137a6838c8a53dde4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c91e62967b34fe655a41e6401eed8623.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2a5d6af850b5356312014047611b1200.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_578c4dc33ce8c9c13071e7909c4c9fef.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_1e5b9e324fd9066b6f39c70806045141.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3110941db9bf2c1d57c9000020fe4dcb.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_51013b9d4c4598ed7111787f97ab6c83.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ab7437187612f2d991340b0b6db0b256.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_DelegatedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_7e691e0f3bf1ded0097341c0976dc87c.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e1bd0999813877b22b755acab3c5dd6b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c08844d442ba19ddd7a784e4d8070376.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_39968c382922c919505ac243f2e65dbb.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_d8fde2db7a33dfd514317f4d1be94f63.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_d27a1643f2b2c549ebd0f63d9d4eb101.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_98cfc03fad0393f425923faf55d2155a.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_900eb56c1dc83e67fa00d073eb180fea.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a13bbb852c96ddd2a84fa75d8040279f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_CreateBasedReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_69a1260348e9d08a7519556dd40a17ab.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_736fe21716c4bb540c13121f978d1850.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f05b954ac42dabe5b0d58dba8a449406.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b0a615f17a640d6ee7a46abb962cb30f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ed3647d2d69fd5e5f583aa60c760e182.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f769ba5715c4c0312ff47958b9ec595e.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_66735e26f9d16cbced1aae9240223866.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_8ba454dc7fca853973ab5b2f2c7220e3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_1bcbd72be9eea3b997b11d96f9d32e06.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_DelegatedReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_cfd0c3461a7ba813b8ca80c6571d969a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_efc9f62c3de129eb151339cad1e8ac23.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_CrossFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ac09cdde645a2a499ee33d7f0808b73d.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserDefinedAddress_DelegatedReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f790bb39866041eb895855aeebef1748.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_798a0911ab2bc05583da97320bd7d643.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_97781419a250b9111aeda5a6dd3eaf2c.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c3d56e418d122ab83c143f45e12fe9fd.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossUserDefinedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "NonReentrant_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_148d743b221f86c98f6a20b7ca1427e3.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_f21a824407dfb37c81f7fbbd8d8e0e58.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ea66721f833092c4ab94cc5bc34dd245.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a0e13201af904506574b468f75e930c4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3f9952d0f451df6c66bbc4e9959d6a25.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferFixedAddress_CrossFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5fe73d9c557aac78b6ede1e2bb107834.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CreateBasedReentrancy_v4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_22bc0231c2d4e19d42c82c6435d51bd8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_SameFunctionReentrancy_v7.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_987beebed3086ee6d2f5472e1d3ad186.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_SameFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_39154ab86b53b8e3a39c30b84b130256.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_CreateBasedReentrancy_v7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_39afddc46dfaa99f28c85e727921bdae.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableNoEtherLossFixedAddress_DelegatedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_SameFunctionReentrancy_v4.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CreateBasedReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_560ef3f0f0f23a6517d24048eccc78dd.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a87c8e51e5f0c64df777eba7683d75d4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_5779579f9ba8cd1df1d151db09b2ace5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_fff6f70ab791abf2b3f03f6871fe929a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_83f6dea6686e660fcc648f7a601df9dc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e0c2c275216d27c15818615b0bf583c6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CrossFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_cbeda3b4f870a8b249e653c871b5d655.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossFixedAddress_CrossFunctionReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableUserDefinedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_53d983142dfc565b8196a72045480d66.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_83dbed8ce361bc7f871867f9af62150d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsFixedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_b1dc998b811e7d3ac3b6eabb7a0cd0f8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendUserDefinedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantCodePartsUserDefinedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "ReentrantVulnerableEtherLossUserFixedAddress_CreateBasedReentrancy_v8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_CrossFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "ReentrantNonVulnerableFixedAddress_SameFunctionReentrancy_v6.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_d7394b6244995de43d9542b937675520.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4192ca07e1674db29ba56e48ab096ce6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblyTransferUserDefinedAddress_SameFunctionReentrancy_v5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "PossiblySendFixedAddress_DelegatedReentrancy_v8.sol"
+  }
+]

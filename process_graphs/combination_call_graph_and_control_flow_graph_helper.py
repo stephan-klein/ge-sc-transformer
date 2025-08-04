@@ -98,15 +98,17 @@ if __name__ == '__main__':
     ROOT = '/workspaces/mlsc/mando/ge-sc-transformer/experiments/ge-sc-data/source_code'
     bug_type = {'reentrancy': 600}
     for bug, counter in bug_type.items():
-        source = f'{ROOT}/{bug}/cgt_split/train'
+        source = f'{ROOT}/{bug}/cgt/'
         # output = f'{ROOT}/{bug}/cgt/cfg_compressed_graphs.gpickle'
-        input_cfg_path = f'{ROOT}/{bug}/cgt_split/cfg_compressed_graphs.gpickle'
-        input_call_graph_path = f'{ROOT}/{bug}/cgt_split/cg_compressed_graphs.gpickle'
+        input_cfg_path = f'{ROOT}/{bug}/cgt/cfg_compressed_graphs.gpickle'
+        input_call_graph_path = f'{ROOT}/{bug}/cgt/cg_compressed_graphs.gpickle'
+        # input_cfg_path = f'{ROOT}/{bug}/cgt_split/test/cfg_compressed_graphs.gpickle'
+        # input_call_graph_path = f'{ROOT}/{bug}/cgt_split/test/cg_compressed_graphs.gpickle'
         input_cfg = nx.read_gpickle(input_cfg_path)
         input_call_graph = nx.read_gpickle(input_call_graph_path)
         dict_node_label_cfg_and_cg = mapping_cfg_and_cg_node_labels(input_cfg, input_call_graph)
         merged_graph = add_new_cfg_edges_from_call_graph(input_cfg, dict_node_label_cfg_and_cg, input_call_graph)
-        output_path = f'{ROOT}/{bug}/cgt_split/cfg_cg_compressed_graphs.gpickle'
+        output_path = f'{ROOT}/{bug}/cgt/cfg_cg_compressed_graphs.gpickle'
         # output_path = f'/home/minhnn/minhnn/ICSE/ge-sc/experiments/ge-sc-data/source_code/compressed_graphs/buggy_curated/{bug}_cfg_cg_compressed_graphs.gpickle'
         update_cfg_node_types_by_call_graph_node_types(merged_graph, dict_node_label_cfg_and_cg)
         nx.write_gpickle(merged_graph, output_path)

@@ -13,41 +13,44 @@ from sco_models.dataloader import EthIdsDataset
 # from sco_models.model_hetero import MANDOGraphClassifier
 from sco_models.model_hgt import HGTVulGraphClassifier
 from sco_models.visualization import visualize_average_k_folds, visualize_k_folds
-from sco_models.utils import score, get_classification_report, get_confusion_matrix
+from sco_models.utils import binary_score, binary_score_from_predictions, get_classification_report, get_confusion_matrix
 
 
 def train(args, model, train_loader, optimizer, loss_fcn, epoch):
     model.train()
-    total_accucracy =  0
-    total_macro_f1 = 0
-    total_micro_f1 = 0
     total_loss = 0
+    all_predictions = []
+    all_labels = []
     circle_lrs = []
+    
     for idx, (batched_graph, labels) in enumerate(train_loader):
         labels = labels.to(args['device'])
         optimizer.zero_grad()
         logits, _ = model(batched_graph)
         loss = loss_fcn(logits, labels)
-        train_acc, train_micro_f1, train_macro_f1, train_buggy_f1 = score(labels, logits)
         loss.backward()
-        # torch.nn.utils.clip_grad_norm_(model.parameters(), 1e-3)
         optimizer.step()
-        total_accucracy += train_acc
-        total_micro_f1 += train_micro_f1
-        total_macro_f1 += train_macro_f1
+        
+        # Accumulate predictions and labels
+        predictions = torch.argmax(logits, dim=1)
+        all_predictions.extend(predictions.cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
+        
         total_loss += loss.item()
         circle_lrs.append(optimizer.param_groups[0]["lr"])
+    
     steps = idx + 1
-    return model, total_loss/steps, total_micro_f1/steps, train_macro_f1/steps, total_accucracy/steps, train_buggy_f1/steps, circle_lrs
+    # Calculate metrics once at the end
+    train_acc, train_f1, train_recall, train_spec = binary_score_from_predictions(all_labels, all_predictions)
+    
+    return model, total_loss/steps, train_f1, train_recall, train_acc, train_spec, circle_lrs
 
 
 def test(args, model, test_loader):
     model.eval()
-    total_macro_f1 = 0
-    total_micro_f1 = 0
-    total_accucracy =  0
+    all_predictions = []
+    all_labels = []
     total_logits = []
-    total_target = []
     predictions_dict = {}
     
     # Get reverse mapping from index to filename
@@ -58,22 +61,27 @@ def test(args, model, test_loader):
             labels = labels.to(args['device'])
             logits, _ = model(batched_graph, './forensics/graph_hiddens/reentrancy/creation_last_attention.pt')
             predicted_classes = torch.argmax(logits, dim=1)
+            
+            # Store predictions for individual contracts
             for i, pred in enumerate(predicted_classes):
                 contract_index = idx * args.get('batch_size', 256) + i
                 filename = index_to_filename.get(contract_index, f'unknown_{contract_index}')
                 predictions_dict[filename] = pred.item()
-            total_logits += logits.tolist()
-            total_target += labels.tolist()
-            test_acc, test_micro_f1, test_macro_f1, _ = score(labels, logits)
-            total_accucracy += test_acc
-            total_micro_f1 += test_micro_f1
-            total_macro_f1 += test_macro_f1
-    steps = idx + 1
+            
+            # Accumulate for overall metrics
+            all_predictions.extend(predicted_classes.cpu().numpy())
+            all_labels.extend(labels.cpu().numpy())
+            total_logits.extend(logits.cpu().numpy())
+    
+    # Calculate metrics once at the end
+    test_acc, test_f1, test_recall, test_spec = binary_score_from_predictions(all_labels, all_predictions)
+    
     total_logits = torch.tensor(total_logits)
-    total_target = torch.tensor(total_target)
+    total_target = torch.tensor(all_labels)
     classification_report = get_classification_report(total_target, total_logits, output_dict=True)
     confusion_report = get_confusion_matrix(total_target, total_logits)
-    return total_micro_f1/steps, test_macro_f1/steps, total_accucracy/steps, classification_report, confusion_report, predictions_dict
+    
+    return test_f1, test_recall, test_acc, test_spec, classification_report, confusion_report, predictions_dict
 
 
 def main(args):
@@ -92,8 +100,8 @@ def main(args):
         feature_extractor = args['feature_extractor']
 
     # Train on full dataset
-    train_results = {'loss': [], 'acc': [], 'micro_f1': [], 'macro_f1': [], 'buggy_f1': [], 'lrs': []}
-    
+    train_results = {'loss': [], 'f1': [], 'recall': [], 'acc': [], 'spec': [], 'lrs': []}
+
     # Use all data for training
     train_dataloader = GraphDataLoader(ethdataset, batch_size=args['batch_size'], drop_last=False, shuffle=True)
     
@@ -109,17 +117,17 @@ def main(args):
     
     for epoch in range(epochs):
         print('Epoch {}'.format(epoch))
-        model, train_loss, train_micro_f1, train_macro_f1, train_acc, train_buggy_f1, lrs = train(args, model, train_dataloader, optimizer, loss_fcn, epoch)
-        print('Train Loss: {:.4f} | Train Micro f1: {:.4f} | Train Macro f1: {:.4f} | Train Accuracy: {:.4f}'.format(
-                train_loss, train_micro_f1, train_macro_f1, train_acc))
-        
+        model, train_loss, train_f1, train_recall, train_acc, train_spec, lrs = train(args, model, train_dataloader, optimizer, loss_fcn, epoch)
+        print('Train Loss: {:.4f} | Train F1: {:.4f} | Train Recall: {:.4f} | Train Accuracy: {:.4f} | Train Specificity: {:.4f}'.format(
+                train_loss, train_f1, train_recall, train_acc, train_spec))
+
         scheduler.step()
         
         train_results['loss'].append(train_loss)
-        train_results['micro_f1'].append(train_micro_f1)
-        train_results['macro_f1'].append(train_macro_f1)
+        train_results['f1'].append(train_f1)
+        train_results['recall'].append(train_recall)
         train_results['acc'].append(train_acc)
-        train_results['buggy_f1'].append(train_buggy_f1)
+        train_results['spec'].append(train_spec)
         train_results['lrs'] += lrs
 
     print('Saving model')
@@ -164,7 +172,7 @@ if __name__ == '__main__':
     'hidden_units': 8,
     'dropout': 0.6,
     'weight_decay': 0.001,
-    'num_epochs': 20,
+    'num_epochs': 50,
     'batch_size': 256,
     'patience': 100,
     'device': 'cuda:0' if torch.cuda.is_available() else 'cpu'
@@ -193,8 +201,8 @@ if __name__ == '__main__':
 
         model_path = '/workspaces/mlsc/mando/ge-sc-transformer/models/graph_classification/cfg_cg/node_features3/han_model.pth'
         model = load_model(model_path, args['compressed_graph'], args['feature_extractor'], args['node_feature'], args['device'])
-        test_micro_f1, test_macro_f1, test_acc, _, _, predictions = test(args, model, test_dataloader)
-        print('Test Micro f1:   {:.4f} | Test Macro f1:   {:.4f} | Test Accuracy:   {:.4f}'.format(test_micro_f1, test_macro_f1, test_acc))
+        test_f1, test_recall, test_accuracy, test_spec, classification_report, confusion_report, predictions = test(args, model, test_dataloader)
+        print('Test F1:   {:.4f} | Test Recall:   {:.4f} | Test Accuracy:   {:.4f} | Test Specificity:   {:.4f}'.format(test_f1, test_recall, test_accuracy, test_spec))
         # Here you can access the predictions_dict for each contract's prediction
-        for filename, prediction in predictions.items():
-            print(f'Contract {filename} - Predicted class: {prediction}')
+        print('Classification Report:\n', classification_report)
+        print('Confusion Matrix:\n', confusion_report)
