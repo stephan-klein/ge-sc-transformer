@@ -12,7 +12,7 @@ from .opcodes import int2op
 
 class EthIdsDataset(DGLDataset):
     def __init__(self, label, raw_dir=None, force_reload=True, verbose=False):
-        # self._data_path = data_path
+        self._data_path = raw_dir
         self._label = label
         super(EthIdsDataset, self).__init__(name='ethscids',
                                             raw_dir=raw_dir,
@@ -24,14 +24,14 @@ class EthIdsDataset(DGLDataset):
         with open(self._label, 'r') as f:
             self._annotations = json.load(f)
         # self.label_dict = {}
-        # for sc in annotations:
+        # for sc in self._annotations:
         #     self.label_dict[sc['contract_name']] = sc['targets']
-         # Get source names
-        # self.extracted_graph = [f for f in os.listdir(self._data_path) if f.endswith('.sol')]
+        #  Get source names
+        self.extracted_graph = [f for f in os.listdir(self._data_path) if f.endswith('.sol')]
         self.num_graphs = len(self._annotations)
         self.graphs, self.label = self._load_graph()
         # Get filename ids
-        # self.filename_mapping = {file: idx for idx, file in enumerate(self.extracted_graph)}
+        self.filename_mapping = {file: idx for idx, file in enumerate(self.extracted_graph)}
 
     def _load_graph(self):
         graphs = []
