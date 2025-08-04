@@ -1,0 +1,494 @@
+[
+  {
+    "targets": 0,
+    "contract_name": "safe_8075c737c6bc20ea94c0461a0972e438.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_62698b36004b272aaae495f90b7d6eae.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c581caa3d3c87b76018c5da612bdebd6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e6a81f14aa2b2851feb74d425451d059.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_f6a8a85b9f8fb206a537a3c2ff157850.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_148d743b221f86c98f6a20b7ca1427e3.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_828105a81b9c451dad83348131c07d5d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2802fcaf8814660aedd5cfc21884c107.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_3ab6356a5eb2c3c14897fc21ed6ebbcb.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_39afddc46dfaa99f28c85e727921bdae.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c3c24082822b14b25b98fa36f3d48677.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d5cd71cd25bac40546f0bd5765a3fd47.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e4bf1068858a8d9d7e68486a469f2b60.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ddc115d4b7c2a77bbde96cb31c5a27c1.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_27bc70fee1ba95b4278050baa580c02d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d46200bf3b38ac508acab83a98daae38.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_7292adb8d9ce813fd36e7687738e3de2.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b19fffc40442b87ff4d36bffff75780f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a59f8a1c156d3208c10523b405773f2a.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_5bedf6bbf39fbf476429737541632f60.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_285cfbf16564f663dc5c45587896ac9b.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_caece3633abbe2b86f4202e608c3be36.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ebeb94501ca257313d865a620b97a88d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_45180feebe0c5be0bc8e0cf76f5eb5b1.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_39154ab86b53b8e3a39c30b84b130256.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c3d56e418d122ab83c143f45e12fe9fd.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d447c226996e366389740fbd692939c9.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_918665f31737bc76d4ff196e53aaca76.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_a696db482f880685400450a308ac49c7.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ec7ad4af1fc95654260069e7932dbf3d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5b2d5d9f0b175c925807af7945344b72.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_8c2ee4db9f4dfdfa078356f1ebc3d887.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_ba6a26a51badc57679851b309018eab9.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_947a23bf4eb57a0b06d39b7d682d1c42.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_64a4eb4ded65b90d989f9647eba6723b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_99967024a919db1fd9369e55d5f1402f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c95eab7cb390c02c35b58527b2853485.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e506b689e410d0d86004bee2664625e8.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_dc82e6b8f09fa0bfa47cb57f5644bf48.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_261a8729f567dd034042a37e29ee9ff0.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_87ce8fb9757afe0d4b83aa945d380cea.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_dfb5e171d127be05bb85ece327756da5.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_0a7dcd7ad58d91e0373b21e4e4522cdf.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_544ddf7650d4359817a2526b33091fa5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_032cf60cd0f1caefc33e33f687f018ff.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_51b82cd091f192493f43dd2934e1b2fc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_014a0178b1fb411bcff909ff91c1f21f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_1275a60f21eca2a024c57a0645803fc6.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_97e9068d08c231cf67c16434705ea44b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5e6759ce2654fe4e80d9f132f596eb3f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_6d8fdfec2d8d906af77ef9348826ded5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d6235dbc7b1ed25aa0f8f61cb7d0595c.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_a59a042cecdf4737884a5b754d62584b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_78db6c4c072afbb7e376ca3546055073.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_6ec32e59ad2fd033e28877be45284c17.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_9a24ad7a4968e769e3d990259f284c4d.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_bc18223caf13ec34b42aba9e4eb36cb3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_964b617077d469fe87d42383a2fe5120.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_a165ee7c076de1c22d895f6e6073b589.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_fea8aa8ae43544f90fd1473bdee49695.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ff51b927b975723fea1b8fdd63c602e5.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_b06648b43eee1574795524dd8f6d14a3.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_e0c2386091ac375d74453bbb0eae8394.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c20de2ed57efa2a2bd6dfc0f234013ed.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_bc03bc214e6175946d71fb5d82d3f209.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_dc7b5b833d896d6c73ebb98c130128dc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_e86a4faeb5def1a7a7f9adf5ea82decc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4f9fe264fdc7eae979762b342d605f93.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c5197f7ce2c328c95b0453336ad3a4be.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_04045504816e9b4137a6838c8a53dde4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_083e60356eeecf6edf0e82b79f66a4ba.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5ed7a351b37a1f783a692e7711c97fa2.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_490bea87738e197f0955a044015f2908.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_be35a2601813a74f5a81b6bb52c103e9.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_662e96aba0463e857799b3bbdd600a21.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_c28430394cf134981f20166b8ac1c64e.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_175c443da7637ba3b53053561531a69e.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_e7552d457c118b2d50a774d3673093a3.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_76842ffbf10d8f31578dcc0b201c906c.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_104f0bb37ed8235a5567542988a0eef4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_5999c905982f6359350d2e4032618cdc.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_db7a9da399f72e21853e27a168ce6d30.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c373e8c9c600c430ebbc72e0aba07cbf.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_4019944aaa95ea852ca378a5586faf9a.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_9c37399dda2acd29509968dabe802aba.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_7f363250765430cfd54314c54825ed6e.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_121a74e190e7b54f05a84a2673463b55.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_c3ac8617381f6dd433b387790b3c296f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_189fc32c2d956ef31008eedfe9a880a0.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2ded699ba83f6c6d414c19375997ff31.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_2a5cb9b7610404553571466cb5ef300a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5bd029f8ca388155de72b26aa6a9a889.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d150edb6c2ccbf96757e5063f6305026.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b33fbc611e61f4a71538b8455f79b496.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_76b4d5b17906ff10116249550d16dedf.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_baf7d9a4f82ca5fedd1e8264443cb6fd.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d4c0d5faf31216e6d9fc8e97e69d9a2a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_9059c7ef72243dbda3c1a138b0ebba5a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3e986d35c9248a39a73a9b3fd13e8972.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_e1c9f22af278b508f32dbb2d636f2d39.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_d8fde2db7a33dfd514317f4d1be94f63.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_95b25642857cce81fe2c8cbfd462941f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_7d6b9a034771315b63328b230f104990.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_3f9952d0f451df6c66bbc4e9959d6a25.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_57954bb1a9d9acec6bce76012147dcb2.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_cbe4e1a3be73b3d3cb151202c48ea35b.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_12a26b92d91099ce48b97195faf7740f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_41fd7d5882feed3cc226c5754ce74697.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ebf9a12353f50c3020be7a9e435cccd4.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_f26ed098ddfa730dd9cebaaaab1bceac.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_ece94fd8c449a7175c8f4cd108c84ec8.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_31d0a0874d5faaeb58db022b9954898a.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_b37d7077feeed635bf11c21fd9da3037.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_d232016d1f76ff94f89450c4b897964f.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_6c95c2086e5a58f7a5fbede278fd7aff.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_33e0b1fef4e72a4efb6f0fcd049c2da2.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_53d983142dfc565b8196a72045480d66.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_517731eb3fb9ae0024fa9d1b39cda7ac.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_5cef47036b0f4bfe8dc52f03922476fe.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_244dae4d20ed64a10f8c412410b0c541.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_b0a615f17a640d6ee7a46abb962cb30f.sol"
+  },
+  {
+    "targets": 0,
+    "contract_name": "safe_7be319d8a6c96e4f2e152755c24511dd.sol"
+  },
+  {
+    "targets": 1,
+    "contract_name": "vul_9e03e9536734eb9fb39623f5c5a2956e.sol"
+  }
+]
