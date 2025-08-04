@@ -6,7 +6,7 @@ from torch import nn
 from sklearn.metrics import f1_score
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, recall_score
 
 
 def get_binary_mask(total_size, indices):
@@ -25,6 +25,17 @@ def score(labels, logits):
     macro_f1 = f1_score(labels, prediction, average='macro')
     buggy_f1 = f1_score(labels, prediction, average=None)[1]
     return accuracy, micro_f1, macro_f1, buggy_f1
+
+def binary_score(labels, logits):
+    logits = nn.functional.softmax(logits, dim=1)
+    _, indices = torch.max(logits, dim=1)
+    prediction = indices.long().cpu().numpy()
+    labels = labels.cpu().numpy()
+    accuracy = accuracy_score(labels, prediction)
+    f1 = f1_score(labels, prediction)
+    recall = recall_score(labels, prediction)
+    specificity = recall_score(labels, prediction, pos_label=0)
+    return accuracy, f1, recall, specificity
 
 
 def accuracy(labels, preds):
@@ -65,3 +76,18 @@ def load_meta_paths(metapath_file):
     for mt in metapaths_str:
         metapaths.append(ast.literal_eval(mt))
     return metapaths
+
+def binary_score_from_predictions(labels, predictions):
+    """
+    Calculate binary classification scores from accumulated predictions and labels.
+    More efficient than calculating per-batch.
+    """
+    import numpy as np
+    labels = np.array(labels)
+    predictions = np.array(predictions)
+    
+    accuracy = accuracy_score(labels, predictions)
+    f1 = f1_score(labels, predictions)
+    recall = recall_score(labels, predictions)
+    specificity = recall_score(labels, predictions, pos_label=0)
+    return accuracy, f1, recall, specificity
